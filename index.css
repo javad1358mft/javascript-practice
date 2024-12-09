@@ -1,0 +1,93 @@
+body{
+    font-family: roboto;
+    margin: 0;
+
+}
+
+header {
+  
+    background-color: blue;
+    color: white;
+    height: 100px;
+    position: sticky;
+    top: 0;
+    
+}
+header>h1{
+    
+    display: inline-block;
+
+    margin-left: 250px;
+}
+
+i {
+    font-size: 15px;
+    color:white;
+    position: absolute;
+    top: 29px;
+    right: 50px;
+}
+#search{
+    position: absolute;
+    top: 40px;
+    left: 80px;
+    color: gray;
+    font-size: 12px;
+}
+
+
+.added{
+    background-color:chocolate;
+    color: white;
+}
+
+input{
+    padding: 1rem 3rem;
+    border-radius: 4px;
+    outline: none;
+    border: 1px solid gray;
+    margin-left: 3rem;
+    
+}
+ 
+
+.products{
+    background-color:	#b771ff;
+    color: white;
+    border-radius: 8px;
+    border: 3px solid gray;
+    padding: 1 rem;
+    margin: 1rem;
+}
+
+.products>p{
+    height: 70px;
+}
+
+.products>img{
+    width: 100%;
+    height: 300px;
+}
+
+#root{
+    display: grid;
+    grid-template-columns:repeat(4,1fr);
+    gap: 1rem;
+}
+
+
+@font-face {
+    font-family:roboto ;
+    src: url("./fonts/Roboto-Thin.ttf");
+}
+
+button{
+    padding: 1rem 2rem;
+    border-radius: 8px;
+    background-color: blue;
+    color: inherit;
+    border: none;
+    margin-left: 1rem;
+    margin-bottom: 1rem;
+    cursor: pointer;
+}
